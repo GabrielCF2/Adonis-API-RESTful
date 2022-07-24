@@ -9,7 +9,7 @@ export default class Moment extends BaseModel {
   public title: string
 
   @column()
-  public sescription: string
+  public description: string
 
   @column()
   public image: string
