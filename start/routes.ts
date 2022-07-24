@@ -26,4 +26,6 @@ Route.group(()=>{
   })
   
   Route.resource("/moments", "MomentsController").apiOnly()
+//Depois mudar para todas as rotas
+  Route.post("/moments/:momentId/comments", "commentsController.store")
 }).prefix('/api')
